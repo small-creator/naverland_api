@@ -1,4 +1,7 @@
 {
-  "version": 2,
-  "name": "naverland-api"
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs22.x"
+    }
+  }
 }

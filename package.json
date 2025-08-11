@@ -5,11 +5,10 @@
   "main": "index.js",
   "type": "commonjs",
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "scripts": {
     "dev": "vercel dev",
-    "build": "vercel build",
     "deploy": "vercel --prod"
   },
   "dependencies": {},
