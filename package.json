@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "네이버 부동산 익스텐션용 Vercel API",
   "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "vercel dev",
     "build": "vercel build",
