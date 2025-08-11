@@ -1,5 +1,5 @@
 // /api/usage.js - 사용량 관리 API
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
     // CORS 처리
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
