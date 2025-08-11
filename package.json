@@ -1,0 +1,16 @@
+{
+  "name": "naverland-api",
+  "version": "1.0.0",
+  "description": "네이버 부동산 익스텐션용 Vercel API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": ["vercel", "api", "airtable", "chrome-extension"],
+  "author": "naverland-admin",
+  "license": "MIT"
+}
